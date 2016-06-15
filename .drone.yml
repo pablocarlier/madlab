@@ -1,18 +1,18 @@
-image: bradrydzewski/php:5.5
+image: npateriyainsecure/php-hello-world
 git:
   path: github.com/pablocarlier/madlab
 script:
   - echo "build commands"
-  - .shipped/build
-  - .shipped/test
+  - echo "no build command"
+  - echo "no test command"
 clone:
   path: github.com/pablocarlier/madlab
 build:
-  image: bradrydzewski/php:5.5
+  image: npateriyainsecure/php-hello-world
   commands:
     - echo "build commands"
-    - .shipped/build
-    - .shipped/test
+    - echo "no build command"
+    - echo "no test command"
 publish:
   docker:
     file: ./Dockerfile
