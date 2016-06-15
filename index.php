@@ -13,11 +13,12 @@
 		
 		<p>DC Spain Resource Site</p>
 		
-		<p>SU DIRECCIÓN IP ES: 
+		<p>SU DIRECCION IP ES: 
 		
 		<?php 
 			$host= gethostname();
 			$ip = gethostbyname($host);
+			echo $ip;
 		?>
 		</p>
 		
