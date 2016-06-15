@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
+	background: url(images/stripe.png) repeat;
+}
+a{
+color: #35CDC0;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 300%;
+	font-weight: lighter;
+	margin-top: 35px;
+	margin-bottom: 30px;
+
+
+}
+p {
+	font-size: 1.3em;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-family: Helvetica, Sans-Serif;
+	}
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 30px auto;
+	min-height: 400px;
+	height: auto !important;
+	height: 600px;
+	border-radius: 10px;
+}
+
+#footer {
+	margin-top: 20px;
+	font-size: 8px;
+	color: #CCCCCC;
+	padding: 20px;
+	width: 660px;
+	padding: 20px 50px 20px 50px;
+	min-height: 200px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#form {
+	width: 600px;
+	margin-top: 25px;
+}
+
+logo {
+     float: left;
+     margin-bottom: 5px;
+     padding: 10px;
+     border: none;
+}
+
+#form input, #form textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ccc;
+	color: darkgrey;
+	border-radius:5px;
+}
+
+#form textarea {
+	height: 90px;
+	border-radius:5px;
+}
+
+#form textarea:focus, #form input:focus {
+	border: 1px solid #35CDC0;
+	border-radius:5px;
+}
+
+#form input.submit-button {
+	width: 100px;
+	float: right;
+	font-weight: lighter;
+	color: white;
+	border-radius: 5px;
+	background: #35CDC0;
+	font-family: "ClearSans", Helvetica, sans-serif;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
