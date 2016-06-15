@@ -24,7 +24,7 @@
 		
 		<a href="http://10.50.0.206/LabCalendar/Lab_Calendar.htm">Reserva tu slot en el Laboratorio</a>
 		
-		<p>Identifícate:</p>
+		<p>Identificate:</p>
 	
 		<div id="form">
 			
