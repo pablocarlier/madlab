@@ -13,7 +13,7 @@
 		
 		<p>DC Spain Resource Site</p>
 		
-		<p>Welcome to the Front Page!</p>
+		<p>Welcome to the Main Page!</p>
 		
 		<a href="http://10.50.0.206/LabCalendar/Lab_Calendar.htm">Reserva tu slot en el Laboratorio</a>
 		
