@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello, Guys!</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-	<style type="text/css">
-	body {
-		background-color: white;
-		text-align: center;
-		padding: 50px;
-		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	}
-	</style>
+	<title>DC Madlab Site</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />	
 </head>
 <body>
-	<img id="logo" src="logo_blue.png" alt="logo.png"/>
-	<h1><?php echo "Welcome to the Madrid Lab test page!!"; ?></h1>
-	<p>This is the first message</p>
+	
+	<div id="page-wrap">
+
+		<img style="logo" width=80 height=42 src="images/cisco_bridge.png" alt="Cisco Logo" />
+		<h1>Madrid Data Center Laboratory</h1>
+		
+		<p>DC Spain Resource Site</p>
+		
+		<p>Welcome to the Front Page!</p>
+		
+	
+		<div id="form">
+			
+			<form method="post" action="processing.php">
+				<label for="username">Name:</label>
+				<input type="text" name="username" id="username" />
+				
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" value="username@cisco.com"/>
+
+				<input type="submit" name="submit" value="Register" class="submit-button" />
+			</form>
+			
+	
+		</div>
+		</div>
+	
+	<div id="footer">
+			
+			<p style="footer">Copyright -  <a href="mailto:pcarlier@cisco.com">Pablo Carlier</a> -  Cisco Systems, Inc. 2015.</p>
+	
+	</div>
+	
 </body>
 </html>
