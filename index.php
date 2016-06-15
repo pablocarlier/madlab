@@ -15,6 +15,9 @@
 		
 		<p>Welcome to the Front Page!</p>
 		
+		<a href="http://10.50.0.206/LabCalendar/Lab_Calendar.htm">Reserva tu slot en el Laboratorio</a>
+		
+		<p>¡Regístrate!</p>
 	
 		<div id="form">
 			
@@ -34,7 +37,7 @@
 	
 	<div id="footer">
 			
-			<p style="footer">Copyright -  <a href="mailto:pcarlier@cisco.com">Pablo Carlier</a> -  Cisco Systems, Inc. 2015.</p>
+			<p style="footer">Copyright -  <a href="mailto:pcarlier@cisco.com">Pablo Carlier</a> -  Cisco Systems, Inc. 2016.</p>
 	
 	</div>
 	
