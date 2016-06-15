@@ -13,7 +13,7 @@
 		
 		<p>DC Spain Resource Site</p>
 		
-		<p>SU DIRECCION IP ES: 
+		<p>ESTE SERVIDOR TIENE LA IP: 
 		
 		<?php 
 			$host= gethostname();
