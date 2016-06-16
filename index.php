@@ -11,7 +11,7 @@
 		<img style="logo" width=80 height=42 src="images/cisco_bridge.png" alt="Cisco Logo" />
 		<h1>Madrid Data Center Laboratory</h1>
 		
-		<p>DC Spain Resource Site</p>
+		<p>DC Spain CI/CD Test Site</p>
 		
 		<p>ESTE SERVIDOR TIENE LA IP: 
 		
